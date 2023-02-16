@@ -1,0 +1,45 @@
+.style{
+    border: 2px solid black;
+    width: fit-content;
+    background-color: #000000;
+    color: white;
+    font-size: x-large;
+}
+.button{
+    width: 100px;
+    margin-left: 50%;
+    height:40px;
+    font-size: x-large;
+    border-radius: 7px
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:focus{
+    background-color: green;
+    }
+    .login{
+        /* text-align: center; */
+        font-size: x-large;
+        width: 30%;
+
+            margin: 10px auto;
+            text-align: center; 
+             background-color:grey;
+             border: 1px solid black;
+            border-radius: 7px;
+            padding-bottom: 10px;
+    }
+    .button1{
+        width: 100px;
+        font-size: x-large;
+        background-color:white;
+    }
+    #email2{
+        border: 1px solid black;
+         }
+#pass2{
+    border: 1px solid black;
+
+}

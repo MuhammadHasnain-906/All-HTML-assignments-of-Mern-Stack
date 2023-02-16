@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login" >
+  <h1>LOGIN FORM</h1>
+  <label for="">Email </label> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="email" id="email2" required > <br><br>
+  <label for="">Password </label> &nbsp; <input type="password" id="pass2"  required> <br><br>
+  <button class="button1" onclick="login()" >Log In</button>
+</div>
+<script>
+function login(){
+  var a = document.getElementById('email2').value;
+  var b = document.getElementById('pass2').value;
+  var c = localStorage.getItem('pass1')
+  var d = localStorage.getItem('email1') 
+  if( a == d && b == c ){
+    alert('Press OK to start quiz')
+  }
+  else{
+    alert('Please inter correct email or password')
+  }
+window.location.href='quiz.html'
+}
+
+</script>
+
+
+
+
+</body>
+</html>
