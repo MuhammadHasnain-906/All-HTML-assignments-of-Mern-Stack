@@ -1,0 +1,62 @@
+.heading{
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    color:rgb(11, 11, 11);
+    }
+    #min{
+        padding: 5px;
+    color: blue;
+
+    }
+    #sec{
+        padding: 5px;
+    color: blue;
+
+}
+#msec{
+    padding: 5px;
+    color: blue;
+
+}
+.time{
+    
+ display: flex;
+ justify-content: center;
+ width: 24%;
+ color:black;
+            margin: 10px auto;
+            text-align: center; 
+             background-color:white;
+             /* box-shadow: 2px 2px 2px 2px wheat; */
+            border-radius:3px;
+            border: 2px solid wheat;
+          
+}
+.red{ background-color: red;
+    color:white;
+    border:1px solid red;}
+    
+.green{
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+.blue{
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+}
+.button{
+    text-align: center;
+}
+#b1{
+    border: 2px solid b;
+    border-radius: 4px;
+    width: 60px;
+    height: 25px;
+font-weight: 700;
+}
+body{
+    background-color: rgb(70, 111, 187);
+}
